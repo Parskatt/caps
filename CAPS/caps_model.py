@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from torch import optim
 from torch.autograd import Variable
-import utils
+import CAPS.utils as utils
 import torchvision.utils as vutils
 from CAPS.criterion import CtoFCriterion
 from CAPS.network import CAPSNet

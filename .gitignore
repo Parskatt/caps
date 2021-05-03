@@ -6,3 +6,10 @@ logs/
 test/
 out/
 models/
+
+
+#tensorboard
+*tfevents*
+
+#package
+*.egg-info

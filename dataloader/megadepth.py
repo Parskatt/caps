@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 import skimage.io as io
 import torchvision.transforms as transforms
-import utils
+import CAPS.utils as utils
 import collections
 from tqdm import tqdm
 import dataloader.data_utils as data_utils
