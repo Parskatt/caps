@@ -41,7 +41,6 @@ def average_precision(labels, logits):
     map = sum_ap/count if count != 0 else 0
     return map
 
-
 def homogenize(kp):
     '''
     turn into homogeneous coordinates
