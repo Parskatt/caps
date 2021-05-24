@@ -200,6 +200,7 @@ class MegaDepth(Dataset):
                'im2_ori': im2_ori,
                'pose': pose,
                'F': F_gt,
+               'E': E_gt,
                'intrinsic1': intrinsic1,
                'intrinsic2': intrinsic2,
                'coord1': coord1}
