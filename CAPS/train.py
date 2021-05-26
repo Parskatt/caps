@@ -1,5 +1,5 @@
 import os
-import config
+from CAPS import config
 from tensorboardX import SummaryWriter
 from CAPS.caps_model import CAPSModel
 from dataloader.megadepth import MegaDepthLoader
